@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: powderblue;
+}
+.nav-pills .nav-link {
+    color: black;}
+    
+    .video{
+      width: 100%;
+      margin-top: 90px;
+      padding-left: 30px;
+      padding-top: 30px;
+      background: rgb(233, 237, 243);
+    }
+
+</style>
+</head>
+<body>
+    <div class="d-flex flex-row" style="width: 100%;height: 100%;">    
+    <div class="d-flex flex-column shadow-lg right " style="width: 7%; height: 100vh;">
+          <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+          <li class="nav-item">
+            <a href="#" class="nav-link py-3 border-bottom" aria-current="page" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                <i class="fa fa-home fa-2x" aria-hidden="true" width="24" height="24" role="img" aria-label="Home" ></i>Home
+                
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link py-3 border-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard" target="_blank" color= "black">
+              <img src="student.png" class="bi" width="24" height="24" role="img" aria-label="Dashboard" /> student
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link py-3 active border-left background-powderblue; " title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders">
+              
+              <i class="fa fa-book fa-2x " aria-hidden="true" width="24" height="24" role="img" aria-label="Dashboard"></i>Lession Plan
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link py-3 border-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Products">
+                <i class="fa fa-cog fa-2x" aria-hidden="true" width="24" height="24" role="img" aria-label="Dashboard" ></i>Setting
+                
+            </a>
+          </li>
+          </ul>
+    </div>
+
+    <div class="Lession_plan d-flex justify-content-right " style="width: 93%;height: 100vh;">
+      
+      <div class="video"  >
+        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+          <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+        </svg> Video</div>
+        <div class="input" style="display: flex;justify-content: center;margin-top: 5%;">
+          <input type="text py-3" placeholder="Insert URL Here" style="border: none;border-radius: 10px; width: 70%; height: 30px; padding: 20px;" /> 
+         </div>
+         <div class="text" style="display: flex;justify-content: center; margin-top: 2%;">
+        <p>or</p>
+        </div>
+        <div class="Upload" style="margin-left: 15%; background: white; width: 200px;height: 200px; text-align: center;"><p style="padding-top: 88px;">Upload</p></div>
+
+        
+      </div>
+    
+
+    </div>
+
+
+    
+</div>
+
+    
+</body>
+</html>
